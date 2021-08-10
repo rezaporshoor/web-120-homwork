@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;font-size: 35px;">Global Boxing News and Commentary</h1>
+    <img src="../images/s5/logo.png" alt="logo" width="200" height="150">
+    <div>
+        <ul style="background-color: firebrick;color: white;">
+            <li ><a href="../Home Page.html" style="color: white;">Home</a></li>
+            <li><a href="./Boxing Schedule.html" style="color: white;">Boxing Schedule</a></li>
+            <li><a href="./Boxing Ranking.html" style="color: white;">Boxing Rankings</a></li>
+            <li><a href="#" style="color: white;">Champions</a></li>
+            <li style="color: white;">more 
+                <ul>
+                    <li><a href="#" style="color: white;">Team</a></li>
+                    <li><a href="./contact.html" style="color: white;">Contact</a></li>
+                </ul>
+            </li>
+         </ul>
+    </div>
+    <form action="" method="POST">
+        <div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Name:</td>
+                        <td>
+                            <form action="" method="POST">
+                                <input type="text" name="Name" value="Mohamad" readonly="readonly">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Family:</td>
+                        <td>
+                            <input type="text" placeholder="Enter your family here" name="family">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>
+                            <input type="email" name="Email" value="kazemiraz72@gmail.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td>
+                            <input type="password" name="password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                                <input type="radio" name="gender" value="male">Male
+                                <input type="radio" name="gender" value="female">Female
+                                <input type="radio" name="gender" value="other">Other
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mobile:</td>
+                        <td>
+                                <select name="phone">
+                                    <option value="0914">0914</option>
+                                    <option value="0919">0919</option>
+                                    <option value="0910" selected="selected">0910</option>
+                                </select>
+                                <input type="text" name="number" placeholder="3861101">
+                        </td>
+                    </tr>
+                    <tr>
+                            <td>
+                             <label for=""> Interests: </label>
+                            </td>
+                            
+                         <td>    
+                               <input type="checkbox" name="Music">Music
+                               <br>
+                               <input type="checkbox" name="Book" disabled="disabled">Book
+                               <br>
+                               <input type="checkbox" name="Philosophy" checked="checked">Philosophy
+                               <br>
+                               <input type="checkbox" name="Poker">Poker
+                               <br>
+                       </td>
+                   </tr>
+                   <tr>
+               <div>
+                   <td>My Comment:</td>
+                   <td>
+                         <textarea name="comment" cols="30" rows="15">Awesome web design...</textarea>
+                   </td>
+               </tr>
+               <div>
+                   <tr>
+                       <td>
+                           <button type="submit">SEND</button> 
+                           <button type="reset">RESET</button>
+                       </td>
+                   </tr>
+               </div>
+           </tbody>
+       </table>
+        </div>
+    </form>
+   <div>
+       <p style="text-align: center;">All Rights Reserved &copy; 2021</p>
+   </div>
+</body>
+</html>
