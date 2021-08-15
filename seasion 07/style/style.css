@@ -1,0 +1,68 @@
+body{font-family: verdana;}
+header{
+    background-color: #1c3652;
+}
+header h1.title{
+    color: #f4f2ed;
+    text-align: center;
+}
+div#hearts{
+    color: #af9152;
+    text-align: center;
+}
+header div p{
+    color: #c4d2e0;
+    font-size: 35px;
+    text-align: center;
+}
+menu{
+    background-color: #1c3652;
+    color: #f4f2ed;
+}
+.list{
+    color: #f4f2ed;
+}
+footer{
+    background-color: #1c3652;
+    color: #f4f2ed;
+    text-align: center;
+}
+#picture{
+    background-color: #253e59;
+    color: #f4f2ed;
+    text-align: center;
+}
+table.table>thead tr:first-child{
+    background-color: #907300;
+}
+#footer{
+    background: #c4d2e0;
+}
+.header{
+    color: #3a3a3a;
+    text-align: center;
+}
+article#footer>p{
+    color: #3a3a3a;
+}
+.main{
+    background-color: #eae7dd;
+}
+#Explanation{
+    font-size: 20px;
+}
+section>div.image{
+    background-color: #eae7dd;
+    display: block;
+}
+section>article{
+    background-color: #f4f2ed;
+}
+.subject{
+    color: #b26200;
+    text-align: center;
+}
+.button{
+    background-color: #1c3652;
+    color: #f4f2ed;
+}
