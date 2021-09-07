@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 960px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+header div{
+    height: 70px;
+    background-color:  rgba(53, 141, 255, 0.61);
+}
+main {
+    display: flex;
+    position: relative;
+}
+.main {
+    width: 65%;
+    background-color:  rgba(220, 20, 60, 0.76);
+    height: 500px;
+    
+    
+}
+.aside{
+    width: 35%;
+    height: 250px;
+    background-color:  rgba(241, 181, 15, 0.658);
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+.nav{
+    width: 35%;
+    height: 250px;
+    background-color: yellowgreen;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+footer div{
+    height: 110px;
+    background-color:  rgba(93, 33, 189, 0.555);
+}
